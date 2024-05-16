@@ -1,8 +1,10 @@
 import type { ReactNode } from "react";
+import { twMerge } from 'tailwind-merge'
 
-export const Card = ({ children }: { children: ReactNode }) => {
+
+export const Card = ({ children, className }: { children: ReactNode, className?: string }) => {
     return (
-        <section className="bg-white shadow-md py-4 px-6 rounded-md">
+        <section className={twMerge("bg-white shadow-md py-4 px-6 rounded-md", className)}>
             {children}
         </section>
     )
