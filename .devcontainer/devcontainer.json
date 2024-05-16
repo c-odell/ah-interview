@@ -1,0 +1,27 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+      "cpus": 4
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "npm install",
+    "postCreateCommand": "",
+    "postAttachCommand": {
+      "server": "npm start"
+    },
+    "customizations": {
+      "codespaces": {
+        "openFiles": [
+          "react-ts-exercise/src/App.tsx"
+        ]
+      }
+    },
+    "portsAttributes": {
+      "5173": {
+        "label": "Application",
+        "onAutoForward": "openPreview"
+      }
+    },
+    "forwardPorts": [5173]
+  }
+  
