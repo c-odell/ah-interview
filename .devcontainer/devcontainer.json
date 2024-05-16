@@ -12,7 +12,7 @@
     "customizations": {
       "codespaces": {
         "openFiles": [
-          "react-ts-exercise/src/App.tsx"
+          "src/App.tsx"
         ]
       }
     },
