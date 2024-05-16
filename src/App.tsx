@@ -1,6 +1,7 @@
 import { Link, Redirect, Route, Switch } from 'wouter'
-import { Exercise1 } from './exercises/Exercise1'
 import authorLogo from '/author.svg'
+import { Exercise1 } from './exercises/Exercise1'
+import { Exercise2 } from './exercises/Exercise2'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <main className="p-6 max-w-3xl">
       <Switch>
         <Route path="/exercise/1" component={Exercise1} />
-        <Route path="/exercise/2" component={Exercise1} />
+        <Route path="/exercise/2" component={Exercise2} />
         <Route>
           <Redirect to="/exercise/1" />
         </Route>
