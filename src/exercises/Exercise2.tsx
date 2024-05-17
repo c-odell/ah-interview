@@ -12,7 +12,7 @@ export const Exercise2 = () => {
             </p>
             <ul className="list-disc pl-5">
                 <li>
-                    Display a detailed data for the timeline items.
+                    Display detailed data for the timeline items.
                 </li>
                 <li>
                     For Appointment Scheduled, show the appointment type, whether it is virtual, and the start time.
