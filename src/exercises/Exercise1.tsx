@@ -7,12 +7,12 @@ export const Exercise1 = () => {
             <h2 className="font-semibold">Exercise 1</h2>
             <p>
                 <span className="italic">User Story: </span>
-                As an outreach liaison, I want to see any recent events related to a patient,
-                so that I have the context of what's been happening in their care.
+                As a community health worker, I want to see any recent events related to a patient,
+                so that I understand the context of what's been happening in their care.
             </p>
             <p>
                 <span className="italic">Dev Notes: </span>
-                Endpoint <pre className="inline">/v1/timeline</pre> will return all timeline items in desc chronological order (mocked for this exercise).
+                The API will return the patient's timeline items in desc chronological order (mocked locally for this exercise).
                 Each timeline item will include data for its given type.
             </p>
             <ul className="list-disc pl-5">
